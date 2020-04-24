@@ -1,0 +1,256 @@
+* {
+  line-height: 1;
+}
+
+/*
+
+
+    font-family: 'Bebas Neue', cursive;
+
+    font-family: 'Gothic A1', sans-serif;
+
+    font-family: 'Trykker', serif;
+
+    font-family: 'PT Sans', sans-serif; */
+a:hover {
+  text-decoration: none;
+  color: none;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.logoMain {
+  padding-top: 30px;
+  color: #404040;
+  font-family: "Bebas Neue";
+  font-size: 39px;
+  font-weight: 400;
+}
+
+.logoDesc {
+  color: #404040;
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+  list-style: none;
+}
+
+.menu_link {
+  color: #404040;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.menu_item {
+  display: inline-block;
+  font-family: 'Gothic A1', sans-serif;
+  padding: 50px 13px 11px 13px;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 19px;
+  text-transform: uppercase;
+  -webkit-transition: 0.05s;
+  transition: 0.05s;
+}
+
+.menu_item:hover {
+  background-image: none;
+  background-color: #1d6ff2;
+}
+
+.menu_item:hover a {
+  color: #ffffff;
+}
+
+.promo {
+  margin-top: 72px;
+  position: relative;
+}
+
+.promo .apos_icon img {
+  display: block;
+  margin: 0 auto;
+  width: 50px;
+  height: 55px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.promo_text {
+  display: block;
+  margin: 0 auto;
+  width: 774px;
+  text-align: center;
+  color: .promo_text #404040;
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 23px;
+  line-height: 36px;
+  padding-bottom: 28px;
+  background-color: #fff;
+}
+
+.promo .shdw {
+  display: block;
+  margin: 0 auto;
+  height: 1px;
+  width: 600px;
+  background-color: #c7c7c7;
+  -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.7);
+          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+.promo .pencil {
+  display: block;
+  margin: 0 auto;
+  width: 104px;
+  position: absolute;
+  z-index: -1;
+  left: calc( (100% - 104px)/2);
+  top: 120px;
+}
+
+.catalog {
+  margin-top: 95px;
+}
+
+.catalog_title {
+  color: #404040;
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 23px;
+  line-height: 36px;
+}
+
+.catalog_list .list_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 38px;
+}
+
+.catalog_list .list_item img {
+  width: 208px;
+  -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.catalog_list .list_item img:hover {
+  -webkit-box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  position: relative;
+  margin-top: 121px;
+  min-height: 262px;
+  background-color: #1d6ff2;
+}
+
+footer .about {
+  position: relative;
+}
+
+footer .about .author_img img {
+  position: absolute;
+  width: 123px;
+  height: 123px;
+  border: 7px solid #ffffff;
+  top: -61px;
+  left: 31px;
+}
+
+footer .about .aboutt {
+  margin-top: 12px;
+}
+
+footer .about .aboutt .info {
+  float: left;
+  width: 400px;
+  margin-left: 170px;
+  color: #ffffff;
+}
+
+footer .about .aboutt .info p {
+  width: 300px;
+  font-size: 23px;
+  margin-bottom: 8px;
+}
+
+footer .about .aboutt .info span {
+  font-family: "PT Sans";
+  font-size: 13px;
+}
+
+footer .about .aboutt .info img {
+  width: 12px;
+  height: 15px;
+}
+
+footer .about .aboutt .social {
+  float: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 150px;
+}
+
+footer .about .aboutt .social img {
+  width: 50px;
+  height: 50px;
+}
+
+footer .about .aboutt .social img:hover {
+  -webkit-box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+footer .about_text {
+  display: block;
+  margin-top: 80px;
+  color: #ffffff;
+  font-family: "PT Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-left: 16px;
+}
+
+footer .copyrights {
+  display: block;
+  margin-top: 41px;
+  background-color: #282828;
+  min-height: 39px;
+  color: #ffffff;
+  font-family: "PT Sans";
+  font-size: 13px;
+  text-align: right;
+  padding-top: 13px;
+  padding-right: 146px;
+}
+/*# sourceMappingURL=style.css.map */
